@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Scholarship Login</title>
+
+<style>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  display: flex;
+  height: 100vh;
+}
+
+/* LEFT SIDE */
+.left {
+  width: 50%;
+  background: linear-gradient(rgba(0,100,0,0.85), rgba(0,100,0,0.85)),
+            url('https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=1200&q=80');
+  background-size: cover;
+  background-position: center;
+  color: white;
+  padding: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.left h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.left p {
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+/* RIGHT SIDE */
+.right {
+  width: 50%;
+  padding: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.right h2 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.right p {
+  font-size: 14px;
+  margin-bottom: 30px;
+  color: #555;
+}
+
+/* FORM */
+.form-group {
+  margin-bottom: 20px;
+}
+
+input {
+  width: 100%;
+  padding: 12px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.options {
+  display: flex;
+  justify-content: space-between;
+  font-size: 13px;
+  margin-bottom: 20px;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  background: #1f7a4c;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background: #16663d;
+}
+
+.signup {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 14px;
+}
+
+.signup a {
+  color: #1f7a4c;
+  text-decoration: none;
+}
+/* MOBILE RESPONSIVENESS */
+@media (max-width: 768px) {
+  body {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .left, .right {
+    width: 100%;
+    padding: 30px 20px;
+  }
+
+  .left {
+    text-align: center;
+  }
+
+  .left h1 {
+    font-size: 24px;
+  }
+
+  .right {
+    padding: 40px 20px;
+  }
+
+  .right h2 {
+    font-size: 22px;
+  }
+
+  input, button {
+    font-size: 14px;
+    padding: 10px;
+  }
+}
+</style>
+
+</head>
+<body>
+
+<!-- LEFT SIDE -->
+<div class="left">
+  <h1>Welcome to the Ghana Scholarships Secretariat Online Application Portal</h1>
+  <p>
+    Applicants are to note that, the service provided by the Secretariat is FREE 
+    and that no Individual, Group or Third Party entity has been engaged 
+    by the Secretariat to assist any applicant.
+  </p>
+</div>
+
+
+<div class="right">
+
+  <div class="form">
+    
+    <div class="logo">
+      
+      <h2>Ghana Scholarship Secretariat</h2>
+    </div>
+
+    <p>Verify your details to claim your scholarship award</p>
+
+    <div class="form-group">
+      <input type="text" placeholder="Student ID Number">
+    </div>
+
+    <div class="form-group">
+      <input type="password" placeholder="Password">
+    </div>
+
+
+    <div class="form-group">
+      <input type="email" placeholder="Email Address">
+    </div>
+
+    <button id="submit">Verify and Claim Scholarship</button>
+
+    <div class="footer" style="margin-top:20px; font-size:12px; color:#777;">
+      &copy; 2024 Ghana Govt Scholarship Portal
+    </div>
+
+  </div>
+
+</div>
+  <script>
+    document.getElementById('submit').addEventListener('click', () => {
+      alert('😂 April Fools! Your details are "compromised"... just kidding!');
+      window.location.href = 'https://cheezburger.com/44388357/conversation-so-good-she-tucked-the-hotdog-the-most-entertaining-takes-from-tiktok-this-week';
+    });
+  </script>
+</body>
+</html>
